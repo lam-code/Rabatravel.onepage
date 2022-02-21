@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda&display=swap");
+body {
+  font-family: "Merienda";
+  font-size: clamp(8px, 4vw, 16px);
+  color: #064bcd;
+  margin: 0;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    padding-top: 5em;
+  }
+  @media (max-width: 768px) {
+    .container {
+      display: none;
+    }
+  }
+  
+  .container .ism-slider {
+    margin-left: auto;
+    margin-right: auto;
+  }/*# sourceMappingURL=sass.css.map */
+  nav{
+    background-color: #e0a072;
+  }
+  .navbar-brand{
+    padding: 5px 0 0 10px;
+    color: #064bcd;
+    font-size: 45px;
+    text-shadow: 5px 5px 0px #b8f2fd; 
+  }
+  .navbar-toggler{
+      background-color:#e0a072 ;
+  }
+  .navbar-toggler-icon{
+      background-color: whitesmoke;
+  }
+
+  .navbar a{
+    border-left: 3px solid #b8f2fd; 
+    color: #064bcd;
+    padding: 0 15px;
+    margin-left: 150px;
+  }
+.container-fluid{
+    border-top: 20px #e0a072 solid; 
+    padding-top: 40px;
+}
+.row{
+    width: 100%;
+    height: 80%;
+  
+}
+.row img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    text-align: justify;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    margin: 70px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.paragraphemanger{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin-left: 50px;
+}
+.paragraphedormir{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 50px;
+}
+footer{
+  /* background-color:#e0a072;
+  padding:10px ;
+  width: auto; */
+ 
+}
+.basdepage{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
